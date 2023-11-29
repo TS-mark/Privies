@@ -1,7 +1,7 @@
 # Privies
 auto vision training project with GPT
 
-## 项目目录
+## 项目文件目录
 
 - Privies
     - data
