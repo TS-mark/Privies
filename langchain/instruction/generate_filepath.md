@@ -10,8 +10,7 @@
             - object detect
             - segment
         - backbone
-
-    - loss
+        - loss
     - val
     - train_manager
     - res
