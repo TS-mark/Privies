@@ -9,7 +9,7 @@ def generate_filepath():
         "model/head/object detect",
         "model/head/segment",
         "model/backbone",
-        "loss",
+        "utils",
         "val",
         "train_manager",
         "res"
