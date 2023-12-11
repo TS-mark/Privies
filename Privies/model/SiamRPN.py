@@ -41,6 +41,7 @@ class SiamRPN(nn.Module):
         out = []
         kernel_size = z.data.size()[-1]
         for i in range(x.size(0)):
+            # F.conv2d(z, x) -->输入张量z，四维(bchw)，x：卷积核张量，四维(output_channels,input_channels,kernel_height,kernel_width)
             out.append(F.conv2d(x[i, :, :, :].unsqueeze(0),
                                 z[i, :, :, :].unsqueeze(0).view(channels, self.backbone.out_channel, kernel_size, kernel_size)
                                 ))
