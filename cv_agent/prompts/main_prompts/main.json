@@ -1,0 +1,9 @@
+{
+    "_type": "prompt",
+    "input_variables": [
+      "task_list",
+      "task_requirement",
+      "instructions"
+    ],
+    "template_path": "main.txt"
+}
